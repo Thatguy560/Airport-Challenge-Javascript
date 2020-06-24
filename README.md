@@ -1,5 +1,17 @@
 # Airport Challenge Javascript
 
+```javascript
+        ______
+        _\____\___
+=  = ==(____MA____)
+          \_____\___________________,-~~~~~~~`-.._
+          /     o o o o o o o o o o o o o o o o  |\_
+          `~-.__       __..----..__                  )
+                `---~~\___________/------------`````
+                =  ===(_________)
+
+```
+
 ## User Stories
 
 ``` 
@@ -22,3 +34,13 @@ As an air traffic controller
 To ensure safety
 I want to prevent landing when weather is stormy
 ```
+
+## Setting Up
+
+$ git clone https://github.com/Thatguy560/Airport-Challenge-Javascript.git
+
+$ Then type in command line 'pwd' to get the file location, then copy into your browser this file location with '/SpecRunner.html' added at the end e.g. "file:///Users/student/Projects/JS-Practice/Airport/SpecRunner.html"
+
+## Testing Frameworks Used
+
+Jasmine
