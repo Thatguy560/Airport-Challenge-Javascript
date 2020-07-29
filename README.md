@@ -49,3 +49,5 @@ I want to prevent landing when weather is stormy
 ## Jasmine Coverage
 
 ![Screenshot](https://raw.githubusercontent.com/Thatguy560/Airport-Challenge-Javascript/master/lib/jasmine-3.5.0/Screenshot%202020-07-29%20at%2018.54.25.png)
+
+![TestCoverage](https://raw.githubusercontent.com/Thatguy560/Airport-Challenge-Javascript/master/lib/jasmine-3.5.0/Screenshot%202020-07-29%20at%2022.00.32.png)
