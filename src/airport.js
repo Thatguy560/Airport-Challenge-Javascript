@@ -10,7 +10,6 @@ class Airport {
     this._weather = typeof weather !== "undefined" ? weather : new Weather();
     this._hangar = [];
   }
-  // Can work with the arrow function '= () =>'
   planes() {
     return this._hangar;
   }
