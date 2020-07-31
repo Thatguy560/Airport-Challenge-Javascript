@@ -1,16 +1,16 @@
-'use strict'
+"use strict";
 
-describe('Weather', function(){
-  var weather;
-  beforeEach(function(){
+describe("Weather", () => {
+  let weather;
+  beforeEach(() => {
     weather = new Weather();
-  }); 
-  it('gives stormy sometimes', function(){
-    spyOn(Math,'random').and.returnValue(1);
+  });
+  it("gives stormy sometimes", () => {
+    spyOn(Math, "random").and.returnValue(1);
     expect(weather.isStormy()).toBeTruthy();
   });
-  it('does not return stormy other times', function(){
-    spyOn(Math,'random').and.returnValue(0);
+  it("does not return stormy other times", () => {
+    spyOn(Math, "random").and.returnValue(0);
     expect(weather.isStormy()).toBeFalsy();
   });
 });
